@@ -1,0 +1,14 @@
+control statement :-
+1)conditional = if-statement
+                if-else-statement
+                if-elif-statement
+                if-elif-else-statement
+
+2)Iterative/looping = while
+                      while-else
+                      for
+                      for-else
+
+3)Transfer = continue
+             break
+             pass

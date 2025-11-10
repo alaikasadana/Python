@@ -1,0 +1,42 @@
+2)Iterative/looping = while
+                      while-else
+                      for
+                      for-else
+                      
+----------------------------------------------------------------------------------------------------------------------------------
+To avoid repetation of same block of code for that we use iterative/loop.
+while=(infinite iteration)
+for=(finite iteration)
+
+
+
+Syntax (while)
+==========
+(this is for finite operation)
+
+#while-loop :- (intitailization) -> starting point
+                   while (condition) : -> ending point
+                         ---------------------
+                         ---------------------      -> body of while
+                         (increment/decrement expression)
+
+            
+            (intitailization) 
+                   while (condition) : 
+                         ---------------------
+                         ---------------------      
+                         (increment/decrement expression)
+
+-----------------------------------------------------------------------------
+
+(this is for infinite operation)
+
+         while (True) : 
+                --------------------
+                ---------------------   
+
+....................................................................................................................................
+
+Syntax (for)
+========== 
+               

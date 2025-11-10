@@ -1,0 +1,12 @@
+3)Transfer = continue
+             break
+             pass
+
+continue:=
+     skip the current iteration and continue with the next iteration
+
+break:=
+    terminate current block of loop
+
+pass:=
+    skip current block

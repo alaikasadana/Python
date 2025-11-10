@@ -1,0 +1,118 @@
+function is write once and call multiple.
+code-reusability
+
+types of function :
+1)in-built function
+2)user-defined function 
+
+------------------------------------------------------------------------------------------
+
+1)in-built function:= pre-defined functions are called in-built function 
+  
+1.len()
+2. max()
+3. min()
+4. type()
+5.id()
+6. print()
+7. input()
+8. eval()
+9. int()
+10. str()
+11. float()
+12. complex()
+13. list()
+14. tuple()
+15. dict()
+16. set()
+17. frozenset()
+
+
+2)user-defined function:= a function that define or declare by user.
+
+ def function-name (parameters):
+         function body
+         return                              
+                              ~ function declaration
+
+  function-name(arguments)        
+                              ~ function calling
+
+
+{note:- value against parameters}
+def and return are keywords 
+optional : - return , parameters and arguments
+
+------------------------------------------------------------------------------------------------------------------
+
+Example : def show():
+               print("hello")
+          show()
+
+---------------------------------------------------------------------------------------------------------------------
+Type of user-defined function :=
+1)On the basis of argument type.
+2)On the basis of argument and return type
+
+Relationship between parameters and arguments := 
+
+(On the basis of argument type.)
+1)Positional argument
+2)Default Positional argument
+3)Variable length Positional argument (*args)
+4)keyword argument
+5)Default keyword argument
+6)Variable keyword argument
+
+(On the basis of argument and return type)
+1)With argument and return type
+2)With argument and Without return type
+3)Without argument and return type
+4)Without argument and Without return type
+
+
+1)Positional argument :=
+
+syntax:
+    def function-name(parameters):
+            ------------------
+            ------------------
+            ------------------
+
+    function-name()
+
+Example:
+         def display(x,y,z):
+            ------------------
+            ------------------
+            ------------------
+
+         display()
+         
+~ A positional argument is an argument that is passed to a function in the correct order (position) as defined in the function’s parameter list.
+The position of each argument matters — Python assigns values to parameters based on their order in the function call.
+      
+
+2)Default Positional argument:=
+to overcome problem faced in positional argument
+
+4)keyword argument:=
+
+syntax:
+           def display(x,y,z):
+            ------------------
+            ------------------
+            ------------------
+
+           display()
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+STACK and HEAP
+ stack stores the refernce values like Variables name 
+ heap stores the exact memory like values of Variable and class , function , object 
+
+ global scope and local scope

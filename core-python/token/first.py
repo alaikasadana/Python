@@ -1,0 +1,8 @@
+x = input("Enter Your Name : ")
+print("Name : " , x)
+print(type(x))
+print(id(x))
+print(len(x))
+print(max(x))
+print(min(x))
+print(sum(x))

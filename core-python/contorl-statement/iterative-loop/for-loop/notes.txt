@@ -1,0 +1,22 @@
+2)Iterative/looping = while
+                      while-else
+                      for
+                      for-else
+
+================================================================================================
+
+SYNTAX :
+========
+for i in iterate/collection :
+      for body executed when element
+      come from collection
+
+for i in 'python':
+      print(i)
+
+type of datatypes used in for loop
+1)range
+2)string
+3)list
+4)tuple
+5)dict

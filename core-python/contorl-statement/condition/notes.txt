@@ -1,0 +1,102 @@
+
+1)conditional = if-statement
+                if-else-statement
+                if-elif-statement
+                if-elif-else-statement
+
+
+# if-statement syntax : (body executes only if it is ture) independent
+ if (condition)  : 
+    --------------------------
+    --------------------------
+    --------------------------
+
+if (condition)  : 
+    if body executed only when 
+    given condition is TRUE
+
+Example : 
+n=int(input("Enter a Number:"))
+
+if n>0:
+    print(f'Positive number = {n}')
+print("Thanks")
+
+--------------------------------------------------------------------------------------------------------
+
+#if-else-statement syntax : (must execute one of the block will execute either if or else)
+ if (condition)  : 
+    --------------------------
+    --------------------------
+else :
+     -------------------------
+     -------------------------
+
+
+ if (condition)  : 
+    if body executed only when 
+    given condition is TRUE
+else :
+     if (if condition) is not true then 
+     else will executed
+
+
+Example : n=int(input("Enter a Number:"))
+
+if n>0:
+    print(f'Given Number {n} is +ve')
+
+else : 
+    print(f'Given Number {n} is -ve')
+
+-----------------------------------------------------------------------------------------------------------
+
+#if-elif-statement syntax:- (multiple condition , maybe executed only any of the multiple condition is true)
+ 
+  if (condition)  : 
+    --------------------------
+    --------------------------
+  elif (condition) :
+     -------------------------
+     -------------------------
+  elif (condition) :
+     -------------------------
+     -------------------------
+
+Example : n=int(input("Enter a Number:"))
+
+if n>0:
+    print(f'Given Number {n} is +ve')
+
+elif n<0:
+    print(f'Given Number {n} is -ve')
+
+------------------------------------------------------------------------------------------------------------------
+
+#if-elif-else-statement syntax :- (must execute)
+
+  if (condition)  : 
+    --------------------------
+    --------------------------
+  elif (condition) :
+     -------------------------
+     -------------------------
+  else :
+     -------------------------
+     -------------------------
+
+Example : n=int(input("Enter a Number:"))
+
+if n>0:
+    print(f'Given Number {n} is +ve')
+
+elif n<0:
+    print(f'Given Number {n} is -ve')
+
+else :
+    print(f'given number {n} is Zero')
+
+--------------------------------------------------------------------------------------------------------------------
+
+if = is independent keyword
+elif nd else = are dependent keyword

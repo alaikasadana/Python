@@ -1,18 +1,26 @@
-class Book:
-    Price=100
-    def _init_(self , title , branch):
-        self.t = title
-        self.b = branch
+# class Student:
+#     x=10
+#     def __init__(self,name):
+#         self.n=name 
+    
+#     @staticmethod
+#     def showdata():
+#         print(Student.x)
 
+# obj =Student("alaika")
+# obj.showdata()
 
-    @classmethod 
-    def update_price(cls,newprice):
-        cls.Price = newprice
+#============================================================================================================         
 
+class Student:
+    x=10
+    def __init__(self,name):
+        self.n=name 
+    
+    @staticmethod
+    def greet(name):
+        print(f'Welcome {name}')
 
-obj = Book('python' , "IT")
-print(obj.Price)
-
-x = float(input("Enter new price :"))
-obj.update_price(x)
-print(obj.Price)
+obj =Student("alaika")
+x=obj.n
+obj.greet(x)

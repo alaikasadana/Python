@@ -40,3 +40,7 @@ obj.school='sshhss'
 print(obj.school)                                  
 print(obj.school)                                  #call
 print(obj.n,obj.r,obj.c)                           #call
+
+
+
+#object dependent jo object ke sth apna value badal le wo instance variable 

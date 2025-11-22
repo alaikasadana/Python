@@ -13,4 +13,3 @@ except ZeroDivisionError:
     print("please enter non zero value against y")
 
     
-x = int(in)
